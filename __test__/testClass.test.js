@@ -1,5 +1,5 @@
-const API = require("../testClass");
-jest.mock("../testClass", () => {
+const API = require("../classes/testClass");
+jest.mock("../classes/testClass", () => {
   return jest.fn().mockImplementation(() => {
     return {
       todos: () => Promise.resolve([1, 2, 3, 4, 5]),
