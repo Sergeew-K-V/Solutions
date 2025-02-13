@@ -24,9 +24,9 @@ p.then((res) => {
   console.log("7");
 }).then((d) => console.log("8"));
 
-// Promise.resolve().then((value) => {
-//   console.log("3");
-// });
+Promise.resolve().then((value) => {
+  console.log("3");
+});
 
 // 1
 // 2
